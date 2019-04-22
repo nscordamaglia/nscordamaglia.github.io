@@ -17,12 +17,8 @@
 	2. COMMONS FOR PAGE DESIGN
 	3. HEADER
 	4. INTRO SECTION
-	5. PORFOLIO SECTION
-	6. ABOUT SECTION
-	7. EXPERIENCE SECTION
-	8. EDUCATION SECTION
-	9. COUNTER SECTION
-	10. FOOTER
+	5. ABOUT SECTION
+	6. FOOTER
 
 ====================================================
 
@@ -129,7 +125,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover;
-	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
+	z-index: 1;background-image: url(../images/header.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
 	right: 0; background: rgba(0,0,0, .2); }
@@ -155,31 +151,10 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
 
 
-/* ---------------------------------
-5. PORFOLIO SECTION
---------------------------------- */
-
-.portfolio-section{ padding-bottom: 0; }
-
-.portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
-
-.portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
-
-.portfolio-section .portfolioFilter a.current{  color: #FFA804; }
-
-.portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
-
-.portfolio-section .p-item{ width: 33.333%; padding: 0 7.5px 0px; margin-top: 15px; }
-
-.portfolio-section .p-item a{ display: inline; }
-
-.portfolio-section .p-item.p-item-2 .img:first-child{ float: left; width: 50%; padding-right: 7.5px; }
-
-.portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
-
+/
 
 /* ---------------------------------
-6. ABOUT SECTION
+5. ABOUT SECTION
 --------------------------------- */
 
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
@@ -194,49 +169,8 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 
 
-/* ---------------------------------
-7. EXPERIENCE SECTION
---------------------------------- */
-
-.experience-section{ background: #28023D; color: #fff; }
-
-.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
-
-.experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px;
-	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
 
 
-/* ---------------------------------
-8. EDUCATION SECTION
---------------------------------- */
-
-.education-wrapper{ position: relative; }
-
-.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
-	width: 2px; background: #ccc; }
-
-.education-wrapper .education{ position: relative; }
-
-.education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px;
-	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
-
-
-/* ---------------------------------
-9. COUNTER SECTION
---------------------------------- */
-
-.counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1;
-	background-image: url(images/header.jpg); color: #fff; }
-
-.counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
-	right: 0; background: rgba(0,0,0, .2); }
-
-.counter{ position: relative; }
-
-.counter .title{ text-align: right; margin-right: 130px; }
-
-.counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
 
 
 /* RADIAL PREOGRESS SECTION */
@@ -255,7 +189,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 
 /* ---------------------------------
-10. FOOTER
+6. FOOTER
 --------------------------------- */
 
 .copyright{ text-align: center; padding: 30px 0; background: #28023D; }
