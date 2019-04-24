@@ -150,7 +150,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
 
-
+.icon-fiverr { width: 39%;}
 /
 
 /* ---------------------------------
