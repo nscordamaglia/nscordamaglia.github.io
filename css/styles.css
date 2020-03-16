@@ -167,9 +167,21 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
 
+	.es, .en { display: none; }
 
+	.es:lang(es) {
+	  display: block;
+	}
+	
+	.en:lang(en) {
+	  display: block;
+	}
 
+	.idioma{
 
+		position: relative;
+    	float: right;
+	}
 
 
 
